@@ -2,6 +2,9 @@ package br.com.dio.desafio.dominio;
 
 public class Curso {
 
+    public Curso() {
+    }
+
     private String titulo;
     private String descricao;
     private int cargaHoraria;
@@ -35,7 +38,7 @@ public class Curso {
         return "Curso{" +
                 "titulo='" + titulo + '\'' +
                 ", descricao='" + descricao + '\'' +
-                ", cargaHoraria=" + cargaHoraria +
+                ", cargaHoraria=" + cargaHoraria + " horas" +
                 '}';
     }
 }
